@@ -1,3 +1,12 @@
+"""
+hyperiondev - Software Engineering (Fundamentals)
+Task 3 - Data Types and Conditional Statements"
+Author: Helder P - HP24010013265
+Date: 16/03/2024
+
+Description: (Auto-graded) Practical Task 1 - "manipulation.py"
+"""
+
 # Ask the user to enter a sentence
 str_manip = input("Enter a sentence: ")
 
