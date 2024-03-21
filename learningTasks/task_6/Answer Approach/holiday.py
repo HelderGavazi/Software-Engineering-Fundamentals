@@ -1,3 +1,12 @@
+"""
+hyperiondev - Software Engineering (Fundamentals)
+Task 6 - "Programming with User-defined Functions"
+Author: Helder P - HP24010013265
+Date: 21/03/2024
+
+Description: Practical Task 1 - "holiday.py"
+"""
+
 def hotel_cost(num_nights):
     # Assuming a hotel cost of $100 per night
     return num_nights * 100
