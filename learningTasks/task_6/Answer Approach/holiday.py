@@ -8,7 +8,7 @@ Description: Practical Task 1 - "holiday.py"
 """
 
 def hotel_cost(num_nights):
-    # Assuming a hotel cost of $100 per night
+    # Assuming a hotel cost of £100 per night
     return num_nights * 100
 
 def plane_cost(city_flight):
@@ -23,7 +23,7 @@ def plane_cost(city_flight):
         return 0  # If city not found, return 0
 
 def car_rental(rental_days):
-    # Assuming a daily car rental cost of $50
+    # Assuming a daily car rental cost of £50
     return rental_days * 50
 
 def holiday_cost(hotel_cost, plane_cost, car_rental):
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     print("City of Flight:", city_flight)
     print("Number of Nights in Hotel:", num_nights)
     print("Number of Days for Car Rental:", rental_days)
-    print("Total Hotel Cost: $", total_hotel_cost)
-    print("Total Plane Cost: $", total_plane_cost)
-    print("Total Car Rental Cost: $", total_car_rental_cost)
-    print("Total Holiday Cost: $", total_holiday_cost)
+    print("Total Hotel Cost: £", total_hotel_cost)
+    print("Total Plane Cost: £", total_plane_cost)
+    print("Total Car Rental Cost: £", total_car_rental_cost)
+    print("Total Holiday Cost: £", total_holiday_cost)
